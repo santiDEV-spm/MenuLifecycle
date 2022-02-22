@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                                 tv.setText("Change action");
 
                         }
-                    }).show();
+                    }).setAnimationMode(BaseTransientBottomBar.ANIMATION_MODE_FADE).show();
 
             return true;
         }else if(id == R.id.app_bar_switch){
